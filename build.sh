@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -euxo pipefail
  
 curl -Ls https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin" sh
 echo "✅ uv installed → $(command -v uv)"
